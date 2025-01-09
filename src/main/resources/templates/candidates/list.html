@@ -10,7 +10,6 @@
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Имя</th>
-                <th scope="col">Описание</th>
                 <th scope="col">Дата</th>
             </tr>
             </thead>
@@ -18,7 +17,6 @@
             <tr th:each="ca: ${candidates}">
                 <td th:text="${ca.id}" />
                 <td th:text="${ca.name}" />
-                <td th:text="${ca.description}" />
                 <td th:text="${ca.creationDate}" />
             </tr>
             </tbody>
