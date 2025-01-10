@@ -20,10 +20,10 @@ public class MemoryVacancyRepository implements VacancyRepository {
     private MemoryVacancyRepository() {
         save(new Vacancy(0, "Intern Java Developer", "newbie", LocalDateTime.now()));
         save(new Vacancy(0, "Junior Java Developer", "newbie+", LocalDateTime.now()));
-        save(new Vacancy(0, "Junior+ Java Developer","newbie++", LocalDateTime.now()));
-        save(new Vacancy(0, "Middle Java Developer","no_newbie", LocalDateTime.now()));
-        save(new Vacancy(0, "Middle+ Java Developer","no_newbie+", LocalDateTime.now()));
-        save(new Vacancy(0, "Senior Java Developer","super_star", LocalDateTime.now()));
+        save(new Vacancy(0, "Junior+ Java Developer", "newbie++", LocalDateTime.now()));
+        save(new Vacancy(0, "Middle Java Developer", "no_newbie", LocalDateTime.now()));
+        save(new Vacancy(0, "Middle+ Java Developer", "no_newbie+", LocalDateTime.now()));
+        save(new Vacancy(0, "Senior Java Developer", "super_star", LocalDateTime.now()));
     }
 
     public static MemoryVacancyRepository getInstance() {
